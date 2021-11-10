@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="50dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setup"
+        android:textSize="16sp"
+        android:textColor="@color/White"
+        android:layout_weight="5"
+        />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+    <TextView
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:id="@+id/punchline"
+        android:textSize="16sp"
+        android:layout_weight="5"
+        />
+         <ImageButton
+             android:background="@color/colorPrimaryDark"
+             android:id="@+id/save_joke"
+             android:layout_margin="10dp"
+             android:tint="@color/White"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_star_border"
+           />
+     </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+

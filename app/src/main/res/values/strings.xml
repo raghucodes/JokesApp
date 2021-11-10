@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JokesApp</string>
+    <string name="joke_type">Joke Type</string>
+    <string name="type_programming">Programming</string>
+    <string name="type_general">General</string>
+    <string name="one_joke">One Joke</string>
+    <string name="ten_jokes">Ten Jokes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
